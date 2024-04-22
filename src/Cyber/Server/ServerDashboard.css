@@ -1,0 +1,8 @@
+
+.ant-table-wrapper .ant-table-thead >tr>th{
+    background: #EBF1FF !important;
+    color: #204496 !important;
+}
+.ant-table-wrapper .ant-table-tbody >tr >td {
+    color: #204496 !important;
+}

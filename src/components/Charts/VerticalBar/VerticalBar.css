@@ -1,0 +1,30 @@
+.bar {
+    position: relative;
+    width: 90px;
+    height: 220px;
+    flex-shrink: 0;
+    border-radius: 24.465px 24.465px 0px 0px;
+    background: linear-gradient(180deg, #6dbb58 0%, #fdc934 48.44%, #fa2d2f 100%);
+  }
+  
+  .bar-content {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .bar::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #000000;
+    border-radius: 0 0 24.465px 24.465px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
