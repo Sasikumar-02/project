@@ -16,11 +16,10 @@ interface NavItem {
     
   }[];
 }
-
 let navItems: NavItem[] = [
   {
     label: "DashBoard",
-    link: "/cpp/newhome",
+    link: "/cpp/gen-AI", ///cpp/newhome
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +44,7 @@ let navItems: NavItem[] = [
     },
     {
       label: "Queue 360",
-      link: "/cpp/productSupport",
+      link: "/cpp/WebChat", ///cpp/productSupport
       icon: (
         <svg
           width="24"
@@ -64,7 +63,7 @@ let navItems: NavItem[] = [
     },
     {
       label: "Technician 360",
-      link: "/cpp/userAnalysis",
+      link: "/cpp/WebChatbot", //   /cpp/userAnalysis
       icon: (
         <svg
           width="24"
